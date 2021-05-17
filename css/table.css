@@ -1,0 +1,23 @@
+.tbl{
+    border-collapse: collapse;
+    width:100%
+}
+.thead{
+    background-color: red;
+    font-size: 30px;
+}
+
+.thead:hover {
+    background-color: blue;
+    font-size: 30px;
+}
+.tr_row:nth-child(odd){
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tr_row:hover:nth-child(even){
+    background-color: green;
+    font-size: 30px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="home.htm" method="POST">
+        <div>
+            <label for="">Firstname</label>
+        </div>
+        <div>
+            <input type="text" name="fname" placeholder="Enter your name" required minlength="3" maxlength="10">
+        </div>
+        <div>
+            <label for="">Lastname</label>
+        </div>
+        <div>
+            <input type="text" name="lname" placeholder="Enter your last name" required>
+        </div>
+        <div>
+            <label for="">Email </label>
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Enter your your email id" required>
+        </div>
+        <div>
+            <label for="">Age</label>
+        </div>
+        <div>
+            <input type="number" name="Age" required min="18" max="30">
+        </div>
+        <div>
+            <label for="">Password </label>
+        </div>
+        <div>
+            <input type="password" name="Password">
+        </div>
+        <div>
+            <label for="">Dob</label>
+        </div>
+        <div>
+            <input type="date" name="Dob">
+        </div>
+        <div>
+            <label for="">phone</label>
+        </div>
+        <div>
+            <input type="tel" name="phonenumber" required>
+        </div>
+        <div>
+            <label for="">States</label>
+        </div>
+        <div>
+            <select name="state">
+                <option value="kl">Kerala</option>
+                <option value="tn">TamilNadu</option>
+                <option value="kl">Karnataka</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Gender</label>
+        </div>
+        <div>
+            Male<input type="radio" name="gender" value="male">
+            Female<input type="radio" name="gender" value="female">
+        </div>
+        <div>
+            <label for="">Course</label>
+        </div>
+        <div>
+            Java<input type="checkbox" name="course1" value="java">
+            Python<input type="checkbox" name="course2" value="python">
+            data science<input type="checkbox" name="course3" value="data science">
+        </div>
+        <div>
+            <label for="">Address</label>
+        </div>
+        <div>
+            <textarea name="address" id="" cols="30" rows="10" required></textarea>
+        </div>
+        <div>
+            Resume<input type="file" name="Resume" required>
+        </div>
+        
+
+        <div>
+            <input type="submit" value="Register" required>
+        </div>
+    </form>
+</body>
+
+</html>
